@@ -62,8 +62,6 @@ h2, h3, h4, h5 {
   font-size: 14px;
   color: #999999;
   line-height: 16px;
-  float: right;
-
 }
 
 p {
@@ -130,6 +128,10 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+}
+
+.flex-item {
+  display: flex;
 }
 
 .center-content {
@@ -217,3 +219,9 @@ span {
     display: block;
   }
 }
+
+.project-entry img {
+  width: 240px;
+  height: 240px;
+}
+
